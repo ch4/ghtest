@@ -16,4 +16,5 @@ permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-permalink: /blog/:title.html
+paginate_path: "/blog/page:num/"
+#permalink: /blog/:title.html
